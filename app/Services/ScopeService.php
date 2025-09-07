@@ -8,9 +8,9 @@ class ScopeService
     {
         return [
             'west' => $this->calculateLongitude(-$radius, $longitude),
-            'east' => $this->calculateLongitude($radius, $latitude),
+            'east' => $this->calculateLongitude($radius, $longitude),
             'north' => $this->calculateLatitude($radius, $latitude),
-            'south' => $this->calculateLatitude(-$radius, $longitude),
+            'south' => $this->calculateLatitude(-$radius, $latitude),
         ];
     }
 

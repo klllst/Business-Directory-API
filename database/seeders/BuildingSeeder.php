@@ -34,8 +34,8 @@ class BuildingSeeder extends Seeder
                             'street' => $street,
                             'house' => rand(0, 100),
                         ],
-                        'latitude' => rand(-900000,900000)/10000,
-                        'longitude' => rand(-1800000,1800000)/10000,
+                        'latitude' => rand(520000,600000)/10000,
+                        'longitude' => rand(200000,600000)/10000,
                     ]);
 
                     --$count;
